@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 const randomNumber = () => {
     return Math.floor(Math.random() * 1000);
 }
-test('User Registration ', async ({ page }) => {
+test('User Registration to Garage', async ({ page }) => {
   
   await page.goto('https://guest:welcome2qauto@qauto.forstudy.space');
 
